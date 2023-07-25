@@ -18,7 +18,7 @@ Proje dosyalarını çalıştırmak için aşağıdaki kütüphaneleri yüklemen
 ## Kullanım
 - Proje dosyalarını bilgisayarınıza indirin veya klonlayın.
 
-- Ana dizindeki python-sound-control.py dosyasını çalıştırın.
+- Ana dizindeki **python-sound-control.py** dosyasını çalıştırın.
 
 - Program çalıştığında, kamera ekranı açılacak ve elinizi kamera önünde gösterin.
 
