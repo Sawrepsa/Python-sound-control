@@ -1,42 +1,38 @@
-# El Tespiti ile Ses Seviyesi Kontrolü
+# Hand Gesture Controlled Sound Level
 
+This project allows controlling the device's sound level using hand gesture recognition. The project is built using Python and the following libraries to achieve sound control.
 
-Bu proje, el tespiti kullanarak cihazın ses seviyesini kontrol etmeyi sağlar. Proje, Python dilini ve aşağıdaki kütüphaneleri kullanarak ses kontrolünü gerçekleştirir.
+## Used Libraries
+To run the project files, you need to install the following libraries:
 
-## Kullanılan Kütüphaneler
-Proje dosyalarını çalıştırmak için aşağıdaki kütüphaneleri yüklemeniz gerekmektedir
+- **cv2 (OpenCV)**: Used for image processing and camera access.
+- **Mediapipe**: A powerful library used for hand gesture recognition.
+- **math**: Used for mathematical operations.
+- **ctypes**: Provides interaction with low-level C languages.
+- **comtypes**: Used for sound control through the Windows API.
+- **pycaw.pycaw**: Enables interaction with sound devices in Windows.
+- **numpy**: Used for arrays and mathematical operations.
 
-- **cv2 (OpenCV)**: Görüntü işleme ve kamera erişimi için kullanılır.
-- **Mediapipe**: El tespiti için kullanılan güçlü bir kütüphanedir.
-- **math**: Matematiksel işlemler için kullanılır.
-- **ctypes**: Düşük seviye C dilleriyle etkileşim sağlar.
-- **comtypes**: Windows API aracılığıyla ses kontrolü için kullanılır.
-- **pycaw.pycaw**: Ses kontrolü için Windows'daki ses aygıtlarıyla etkileşim sağlar.
-- **numpy**: Diziler ve matematiksel işlemler için kullanılır.
+## Usage
+- Download or clone the project files to your computer.
 
+- Run the **python-sound-control.py** file in the main directory.
 
-## Kullanım
-- Proje dosyalarını bilgisayarınıza indirin veya klonlayın.
+- When the program starts, the camera screen will open, and you should show your hand in front of the camera.
 
-- Ana dizindeki **python-sound-control.py** dosyasını çalıştırın.
+- When your hand is detected, the sound level will be adjusted based on the hand's height. As the hand's height increases, the sound level will also increase, and as the hand's height decreases, the sound level will decrease.
 
-- Program çalıştığında, kamera ekranı açılacak ve elinizi kamera önünde gösterin.
+## How It Works?
+The project performs hand gesture recognition using the Mediapipe library.
+Based on the hand coordinates, it determines the hand's height and adjusts the sound level accordingly.
+For sound control, it utilizes the ctypes and pycaw.pycaw libraries.
 
-- El tespit edildiğinde, elinizin yüksekliğine bağlı olarak ses seviyesi ayarlanacaktır. El yüksekliği arttıkça ses seviyesi 
- de artar, el yüksekliği azaldıkça ses seviyesi de azalır.
+## Contributing
+This project is open-source, and we welcome contributions! Please submit pull requests for bug fixes or new features.
 
-## Nasıl Çalışır?
-Proje, Mediapipe kütüphanesi kullanılarak el tespiti yapar.
-Elin koordinatlarına göre, el yüksekliğini belirler ve ses seviyesini buna göre ayarlar.
-Ses kontrolü için ctypes ve pycaw.pycaw kütüphaneleri kullanılır.
-Katkıda Bulunma
-Bu proje açık kaynaklıdır ve katkıda bulunmaktan mutluluk duyarız! Düzeltemeyeceğimiz hatalar veya yeni özellikler eklemek için pull request gönderin.
+## Acknowledgments
+This project leverages the powerful Mediapipe library for hand gesture recognition. We thank the Mediapipe team for their contribution.
+For sound control, we use the ctypes and pycaw.pycaw libraries. We extend our appreciation to the developers of these libraries.
 
-
-
-## Teşekkürler
-Bu proje, el tespiti için güçlü Mediapipe kütüphanesini kullanmaktadır. Mediapipe ekibine teşekkür ederiz.
-Ses kontrolü için ctypes ve pycaw.pycaw kütüphanelerini kullanıyoruz. Bu kütüphaneleri sağlayan geliştiricilere teşekkür ederiz.
-İletişim
-Eğer herhangi bir sorunuz veya öneriniz varsa, lütfen bize e-posta yoluyla ulaşın: ibwoooo90s@gmail.com
-
+## Contact
+If you have any questions or suggestions, please feel free to contact us via email: ibwoooo90s@gmail.com
