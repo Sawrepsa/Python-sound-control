@@ -15,16 +15,17 @@ Proje dosyalarını çalıştırmak için aşağıdaki kütüphaneleri yüklemen
 - **numpy**: Diziler ve matematiksel işlemler için kullanılır.
 
 
-Kullanım
-Proje dosyalarını bilgisayarınıza indirin veya klonlayın.
+## Kullanım
+- Proje dosyalarını bilgisayarınıza indirin veya klonlayın.
 
-Ana dizindeki main.py dosyasını çalıştırın.
+- Ana dizindeki main.py dosyasını çalıştırın.
 
-Program çalıştığında, kamera ekranı açılacak ve elinizi kamera önünde gösterin.
+- Program çalıştığında, kamera ekranı açılacak ve elinizi kamera önünde gösterin.
 
-El tespit edildiğinde, elinizin yüksekliğine bağlı olarak ses seviyesi ayarlanacaktır. El yüksekliği arttıkça ses seviyesi de artar, el yüksekliği azaldıkça ses seviyesi de azalır.
+- El tespit edildiğinde, elinizin yüksekliğine bağlı olarak ses seviyesi ayarlanacaktır. El yüksekliği arttıkça ses seviyesi 
+ de artar, el yüksekliği azaldıkça ses seviyesi de azalır.
 
-Nasıl Çalışır?
+## Nasıl Çalışır?
 Proje, Mediapipe kütüphanesi kullanılarak el tespiti yapar.
 Elin koordinatlarına göre, el yüksekliğini belirler ve ses seviyesini buna göre ayarlar.
 Ses kontrolü için ctypes ve pycaw.pycaw kütüphaneleri kullanılır.
@@ -33,7 +34,7 @@ Bu proje açık kaynaklıdır ve katkıda bulunmaktan mutluluk duyarız! Düzelt
 
 
 
-Teşekkürler
+## Teşekkürler
 Bu proje, el tespiti için güçlü Mediapipe kütüphanesini kullanmaktadır. Mediapipe ekibine teşekkür ederiz.
 Ses kontrolü için ctypes ve pycaw.pycaw kütüphanelerini kullanıyoruz. Bu kütüphaneleri sağlayan geliştiricilere teşekkür ederiz.
 İletişim
