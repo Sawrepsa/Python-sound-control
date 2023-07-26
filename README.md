@@ -35,4 +35,5 @@ This project leverages the powerful Mediapipe library for hand gesture recogniti
 For sound control, we use the ctypes and pycaw.pycaw libraries. We extend our appreciation to the developers of these libraries.
 
 ## Contact
-If you have any questions or suggestions, please feel free to contact us via email: ibwoooo90s@gmail.com
+If you have any questions or suggestions, please feel free to contact us via email: sawrepsa@gmail.com
+
